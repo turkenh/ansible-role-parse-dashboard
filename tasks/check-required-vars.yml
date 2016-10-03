@@ -1,0 +1,8 @@
+---
+- name: Check if "parse_dashboard_application_id" is defined
+  fail: msg="ERROR - required variable 'parse_dashboard_application_id' missing."
+  when: parse_dashboard_application_id is not defined
+
+- name: Check if "parse_dashboard_master_key is" defined
+  fail: msg="ERROR - required variable 'parse_dashboard_master_key' missing."
+  when: parse_dashboard_master_key is not defined

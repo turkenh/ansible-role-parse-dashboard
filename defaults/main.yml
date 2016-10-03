@@ -1,0 +1,8 @@
+# default password is "parse", to change check:
+# http://docs.ansible.com/ansible/faq.html#how-do-i-generate-crypted-passwords-for-the-user-module
+parse_dashboard_user_crypted_password: "$6$8nyAwuOOxGCv$FxxYf4MI0CTtkELo0oYR0/m87Vr1k0dQVk6XHxOp9VBsTevLhdORDUxKquP3tzbbfhIOG5BT6E95blfWR.T5C/"
+
+parse_dashboard_server_url: http://localhost:1337/parse
+parse_dashboard_user: admin
+parse_dashboard_password: admin
+parse_dashboard_application_name: myApp

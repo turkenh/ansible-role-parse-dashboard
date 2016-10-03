@@ -1,0 +1,3 @@
+---
+- include: check-required-vars.yml
+- include: install-and-configure-parse-dashboard.yml

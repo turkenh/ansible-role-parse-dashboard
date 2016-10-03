@@ -1,0 +1,18 @@
+{
+  "apps" : [{
+    "name"        : "parse-dashboard-wrapper",
+    "script"      : "/usr/bin/parse-dashboard",
+    "watch"       : true,
+    "merge_logs"  : true,
+    "cwd"         : "/home/parse",
+    "env": {
+      "PARSE_DASHBOARD_ALLOW_INSECURE_HTTP": "1",
+      "PARSE_DASHBOARD_SERVER_URL": "{{parse_dashboard_server_url}}",
+      "PARSE_DASHBOARD_APP_ID": "{{parse_dashboard_application_id}}",
+      "PARSE_DASHBOARD_APP_NAME": "{{parse_dashboard_application_name}}",
+      "PARSE_DASHBOARD_MASTER_KEY": "{{parse_dashboard_master_key}}",
+      "PARSE_DASHBOARD_USER_ID": "{{parse_dashboard_user}}",
+      "PARSE_DASHBOARD_USER_PASSWORD": "{{parse_dashboard_password}}",
+    }
+  }]
+}
